@@ -1,0 +1,17 @@
+#principal {
+  height:   700px ;
+  width:  800px ; 
+  margin:   auto;
+}
+header {
+  height:  150px ;
+  width:  800px ;
+}
+nav {
+  height:   50px ;
+  width:   800px ;
+}
+section{
+  height: 200px ;
+  width:  400px ;
+}
