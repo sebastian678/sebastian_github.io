@@ -1,0 +1,159 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #aadd95;
+}
+#encabezado{
+	display: flex;
+	background-color: #b2b2b2;
+	border-radius: 20px 20px 0px 0px;
+	height: 160px;
+	width: 100%;
+}
+.texto_encabezado{
+	float: left;
+	padding: 0px 0px 0px 20px;
+	width: 1050px;
+}
+.logo{
+	height: 148px;
+	width: 160px;
+	padding: 10px 0px 0px 20px;
+}
+.lista{
+	float: left;
+}
+.titulo{
+	font-size: 74px;
+	font-weight: bold;
+	text-shadow: #555 5px 5px 5px;
+	letter-spacing: 11px;
+}
+.subtitulo{
+	font-size: 30px;
+	letter-spacing: 7px;
+}
+nav{
+	display: flex;
+	background-color: #000000;
+	height: 60px;
+	width: 100%;
+	margin-bottom: 15px;
+	border-radius: 0px 0px 20px 20px;
+}
+.linea{
+	height: 10px;
+	width: 100%;
+	background-color: #000000;
+}
+a{
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+section{
+	height: 560px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+article{
+	margin-bottom: 15px;
+	background-color: #e2e0e1;
+	height: 350px;
+	border-radius: 15px;
+}
+h5{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+p{
+	padding: 5px 10px 5px 10px;
+	text-align: justify;
+}
+img{
+	display: block;
+	margin: auto;
+	height: 110px;
+	width: 140px;
+	padding: 10px 0px 10px 0px;
+}
+.articulos{
+	background-color: #232323;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.titulo_lista{
+	color: #FFBD16;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+.subtitulo_lista{
+	background-color: #232323;
+	padding-top: 0px;
+}
+hr{
+	background-color: #ffffff;
+	margin: 6px;
+}
+footer{
+	background-color: #232323;
+	color: #716F70;
+	border-radius: 0px 0px 20px 20px;
+	margin-bottom: 10px;
+	height: 100px;
+	width: 100%;
+}
+.contacto{
+	text-align: center;
+	padding-top: 15px;
+}
+li{
+	list-style: none;
+}
+
+@media (max-width: 800px) {
+	body{
+		background-color: #566eb0;
+	}
+	a{
+		font-size: 20px;
+	}
+	.titulo{
+		font-size: 50px;
+		letter-spacing: normal;
+	}
+	.subtitulo{
+		font-size: 19px;
+		letter-spacing: normal;
+	}
+	.texto1{
+		font-size: 14px;
+	}
+}
+@media (max-width: 550px) {
+	body{
+		background-color: #f4854e;
+	}
+	a{
+		font-size: 15px;
+	}
+	.titulo_articulos{
+		font-size: 20px;
+	}
+	.titulo{
+		font-size: 41px;
+		letter-spacing: normal;
+		padding: 15px 0px 10px 0px;
+	}
+	.subtitulo{
+		font-size: 14px;
+		font-weight: bold;
+		letter-spacing: normal;
+	}
+}
